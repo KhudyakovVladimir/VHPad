@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/notes"
+            android:icon="@drawable/ic_content_copy_black_48dp"
+            android:title="@string/notes" />
+
+    <item
+            android:id="@+id/newNote"
+            android:icon="@drawable/ic_insert_drive_file_black_48dp"
+            android:title="new" />
+
+    <item
+            android:id="@+id/shopping"
+            android:icon="@drawable/ic_shopping_cart_black_48dp"
+            android:title="@string/shopping" />
+
+</menu>

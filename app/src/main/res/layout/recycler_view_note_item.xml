@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="22sp"
+        android:padding="10sp"
+
+        android:fontFamily="@font/segoesc"
+        android:gravity="start|top"
+
+        android:background="@drawable/rounded_corner_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/textViewText"
+        android:background="@drawable/rounded_corner_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="18sp"
+        android:padding="10sp"
+
+        android:fontFamily="@font/segoesc"
+        android:gravity="start|top"
+
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/textViewTime"
+                android:background="@drawable/rounded_corner_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+
+                android:textSize="12sp"
+                android:padding="10sp"
+
+                android:fontFamily="@font/decadance_cursiv"
+                android:gravity="end|bottom"
+
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <TextView
+                android:id="@+id/textViewDrag"
+                android:background="@drawable/rounded_corner_drag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="10"
+
+                android:textSize="12sp"
+                android:padding="10sp"
+
+                android:text="@string/emojiDoubleArrow"
+
+                android:fontFamily="@font/decadance_cursiv"
+                android:gravity="end|bottom"
+
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

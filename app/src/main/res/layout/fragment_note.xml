@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+                name="handler"
+                type="com.example.vhpad.MyEventHandler">
+
+        </variable>
+
+        <variable
+                name="viewModel"
+                type="com.example.vhpad.VHViewModel">
+
+        </variable>
+    </data>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  tools:orientation="vertical"
+                  android:background="#DFDEC8">
+
+        <EditText
+                android:text="your note"
+                android:id="@+id/editTextNote"
+                android:layout_width="match_parent"
+                android:layout_height="584dp"/>
+        <Button
+                android:id="@+id/buttonFragmentTwo"
+                android:text="save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"/>
+
+    </LinearLayout>
+</layout>

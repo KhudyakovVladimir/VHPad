@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/constraintLayoutSingleNote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            app:layout_constraintVertical_weight="1"
+
+            android:inputType="textPersonName"
+
+            android:hint="@string/title"
+
+            android:fontFamily="@font/segoesc"
+            android:gravity="start|top"
+            android:textSize="25sp"
+            android:padding="10sp"
+            android:ems="10"
+            android:id="@+id/editTextTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+
+            android:autofillHints="@string/title"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/editTextText"/>
+
+    <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            app:layout_constraintVertical_weight="8"
+
+            android:autofillHints="@string/text"
+
+            android:ems="10"
+            android:fontFamily="@font/segoesc"
+            android:gravity="start|top"
+            android:hint="@string/text"
+            android:inputType="textPersonName"
+            android:padding="5sp"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/editTextTitle"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintVertical_weight="1"
+            android:id="@+id/linearLayout2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText">
+
+        <Button
+                android:text="@string/clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonClear"
+                android:layout_weight="1"
+                style="?android:attr/buttonBarButtonStyle"/>
+        <Button
+                android:text="@string/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonSave"
+                android:layout_weight="4"
+                style="?android:attr/buttonBarButtonStyle"/>
+        <Button
+                android:text="@string/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonDelete"
+                android:layout_weight="1"
+                style="?android:attr/buttonBarButtonStyle"/>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButtonSingleNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="308dp"
+            android:layout_marginEnd="60dp"
+            android:clickable="true"
+            app:backgroundTint="@color/purple_200"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTitle"
+            app:srcCompat="@drawable/ic_photo_camera_black_48dp"/>
+    <ImageView
+            android:layout_width="192dp"
+            android:layout_height="226dp"
+            app:srcCompat="@drawable/ic_photo_camera_black_48dp"
+            android:id="@+id/imageViewPhoto"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.925"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="112dp" app:layout_constraintBottom_toBottomOf="@+id/editTextText"
+            app:layout_constraintVertical_bias="0.076"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButtonShopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.83"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/floatingActionButtonSingleNote"
+            app:layout_constraintVertical_bias="0.177"
+            app:srcCompat="@drawable/ic_shopping_cart_black_48dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

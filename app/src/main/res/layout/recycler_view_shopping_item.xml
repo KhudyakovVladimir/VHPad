@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+            android:id="@+id/holderViewShoppingItem"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/emojiDoubleArrow"
+            android:textColor="@color/purple_200"
+            android:textSize="18sp"
+            android:paddingLeft="8sp"
+            android:paddingTop="8sp"
+            android:layout_weight="17"
+            android:background="@drawable/rounded_corner_shopping_left"
+    />
+    <TextView
+        android:id="@+id/textViewShoppingItem"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="4"
+        android:textSize="16sp"
+        android:padding="6sp"
+        android:fontFamily="@font/segoesc"
+        android:gravity="start|top"
+        android:background="@drawable/rounded_corner_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/buttonShoppingItem"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/emojiShoppingCart"
+        android:textSize="12sp"
+        android:paddingLeft="11sp"
+        android:paddingTop="12sp"
+        android:background="@drawable/rounded_corner_shopping_right"
+        android:layout_weight="16"
+        />
+
+</LinearLayout>

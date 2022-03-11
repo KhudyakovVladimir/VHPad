@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/back"
+        android:title="back"
+        android:icon="@drawable/ic_reply_black_48dp"
+        app:showAsAction="always">
+
+    </item>
+
+    <item
+            android:id="@+id/delete"
+            android:title="delete"
+            android:icon="@drawable/ic_delete2_black_48dp"
+            app:showAsAction="always">
+
+    </item>
+
+    <item
+            android:id="@+id/hold"
+            android:title="hold"
+            android:icon="@drawable/ic_class_black_48dp"
+            app:showAsAction="always">
+
+    </item>
+
+    <item
+            android:id="@+id/remind"
+            android:title="remind"
+            android:icon="@drawable/ic_notifications_none_black_48dp"
+            app:showAsAction="always">
+
+    </item>
+
+</menu>

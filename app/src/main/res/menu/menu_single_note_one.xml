@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+            android:id="@+id/delete"
+            android:title="delete"
+            android:icon="@drawable/ic_delete2_black_48dp"
+            app:showAsAction="always">
+
+    </item>
+
+    <item
+            android:id="@+id/empty"
+            android:title=""
+            app:showAsAction="always">
+
+    </item>
+
+    <item
+        android:id="@+id/clear"
+        android:title="clear"
+        android:icon="@drawable/ic_clear_list"
+        app:showAsAction="always">
+
+    </item>
+
+    <item
+            android:id="@+id/deletePhoto"
+            android:title=""
+            android:icon="@drawable/delete_photo"
+            app:showAsAction="always">
+
+    </item>
+
+    <item
+        android:id="@+id/save"
+        android:title="save"
+        android:icon="@drawable/ic_save_note"
+        app:showAsAction="always">
+
+    </item>
+
+    <item
+        android:id="@+id/remind"
+        android:title="remind"
+        android:icon="@drawable/ic_notifications_none_black_48dp"
+        app:showAsAction="always">
+
+    </item>
+
+    <item
+        android:id="@+id/fastAccessButtonsOn"
+        android:title="fastAccessButtonsOn"
+        android:icon="@drawable/ic_fast_access"
+        app:showAsAction="always">
+
+    </item>
+
+</menu>

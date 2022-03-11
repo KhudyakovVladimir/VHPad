@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/main_graph" app:startDestination="@id/startPermissionScreen">
+
+    <fragment android:id="@+id/startPermissionScreen"
+              android:name="com.khudyakovvladimir.vhcloudnotepad.view.fragments.StartPermissionScreen"
+              android:label="StartPermissionScreen">
+        <action android:id="@+id/action_startPermissionScreen_to_mainScreen"
+                app:destination="@id/notes"/>
+    </fragment>
+
+    <fragment android:id="@+id/notes"
+              android:name="com.khudyakovvladimir.vhcloudnotepad.view.fragments.MainScreen"
+              android:label="MainScreen">
+        <action android:id="@+id/action_mainScreen_to_singleNote"
+                app:destination="@id/newNote"/>
+        <action android:id="@+id/action_mainScreen_to_settings" app:destination="@id/settings"/>
+    </fragment>
+
+    <fragment android:id="@+id/newNote"
+              android:name="com.khudyakovvladimir.vhcloudnotepad.view.fragments.SingleNote"
+              android:label="SingleNote">
+        <action
+            android:id="@+id/action_singleNote_to_notification2"
+            app:destination="@id/notification" />
+    </fragment>
+    <fragment
+        android:id="@+id/notification"
+        android:name="com.khudyakovvladimir.vhcloudnotepad.view.fragments.Notification"
+        android:label="Notification" >
+        <action
+            android:id="@+id/action_notification2_to_about"
+            app:destination="@id/about" />
+    </fragment>
+    <fragment android:id="@+id/settings" android:name="com.khudyakovvladimir.vhcloudnotepad.view.fragments.Settings"
+              android:label="Settings">
+        <action
+            android:id="@+id/action_settings_to_shopping"
+            app:destination="@id/shopping" />
+    </fragment>
+    <fragment android:id="@+id/about" android:name="com.khudyakovvladimir.vhcloudnotepad.view.fragments.About"
+              android:label="About">
+        <action android:id="@+id/action_about_to_weather" app:destination="@id/weather"/>
+    </fragment>
+    <fragment
+        android:id="@+id/shopping"
+        android:name="com.khudyakovvladimir.vhcloudnotepad.view.fragments.Shopping"
+        android:label="Shopping" />
+    <fragment android:id="@+id/weather" android:name="com.khudyakovvladimir.vhcloudnotepad.view.fragments.WeatherScreen"
+              android:label="Weather"/>
+</navigation>

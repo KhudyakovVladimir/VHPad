@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">VHNotepad</string>
+    <string name="title">Title</string>
+    <string name="text">Text</string>
+    <string name="clear">clear</string>
+    <string name="save">save</string>
+    <string name="delete">delete</string>
+    <string name="notes">notes</string>
+    <string name="add">add</string>
+    <string name="permissions">permissions</string>
+    <string name="your_notes_is_here">Your notes is here...</string>
+    <string name="notification">notification</string>
+    <string name="settings">Settings</string>
+    <string name="sound">Sound</string>
+    <string name="on">On</string>
+    <string name="language">Language</string>
+    <string name="eng">Eng</string>
+    <string name="theme">Theme</string>
+    <string name="black">Black</string>
+    <string name="shopping">shopping</string>
+    <string name="emojiPaperClip">&#128204;</string>
+    <string name="emojiDoubleArrow">&#8661;</string>
+    <string name="emojiDoubleArrow2">&#8597;</string>
+    <string name="emojiPaper">&#128196;</string>
+    <string name="emojiShoppingCart">&#128722;</string>
+    <string name="emojiTimer">&#9201;</string>
+</resources>
