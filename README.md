@@ -14,5 +14,17 @@ ___
 3) Event reminder
 4) Current weather
 
+___
+
+### Technologies and libraries :
+1) MVVM 
+2) Kotlin Coroutines
+3) Dagger2
+4) Retrofit2
+5) Room
+6) Navigation
+7) WorkManager
+
 <a href="https://ibb.co/tDrz27Y"><img src="https://i.ibb.co/5LHkjNs/main3.png" alt="main3" border="0"></a>
-<a href="https://ibb.co/dkVGb7F"><img src="https://i.ibb.co/kqwQ3Mj/1.jpg" alt="1" border="0"></a><br />
+
+<a href="https://ibb.co/pj3BH26"><img src="https://i.ibb.co/1G9tCZY/main.png" alt="main" border="0"></a>
